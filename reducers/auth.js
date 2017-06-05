@@ -1,4 +1,4 @@
-import { CRUD_CREATE_SUCCESS } from '../actions/dataActions'
+import { CRUD_ALERT, CRUD_CONSOLE} from '../actions/dataActions'
 
 const auth = (state = { authenticated: false }, action) => {
   console.log(action)

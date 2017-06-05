@@ -6,7 +6,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "小程序",
+    "navigationBarTitleText": "...",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {

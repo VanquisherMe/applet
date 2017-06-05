@@ -1,2 +1,4 @@
 <!--pages/index/index.wxml-->
 <text>pages/index/index.wxml</text>
+<button type="default" size="{{mini}}" bindtap="tapAlert" > tapAlert </button>
+<button type="default" size="{{mini}}" bindtap="tapConsle" > tapConsle </button>
