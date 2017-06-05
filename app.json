@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,7 +18,7 @@
       },
       {
         "pagePath": "pages/home/home",
-        "text": "测试"
+        "text": "home"
       }
     ]
   }

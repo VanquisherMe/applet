@@ -1,1 +1,61 @@
 /* pages/index/index.wxss */
+.banner-swiper {
+  height: 360rpx;
+}
+.slide-image{
+  width: 100%;
+   height: 360rpx;
+ 
+}
+.quick-block{
+   padding: 20px 0;
+  margin: 0 20rpx;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+}
+.quick-item{
+  position: relative;
+}
+.quick-item .quick-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+.quick-item .quick-name{
+  font-size: 28rpx;
+  text-align: center;
+}
+.quick-item .quick-tag{
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: -30rpx;
+  top:-10rpx;
+  width: 90rpx;
+  height: 40rpx;
+  z-index: 99;
+}
+
+.quick-item .quick-tag.hot{
+  background-image:url("http://czc.nfc-hxd.com/resources/wap/images/hot.png");
+  background-size: cover;
+}
+.news{
+  margin: 0 20rpx;
+  height: 66rpx;
+  background:url("http://czc.nfc-hxd.com/resources/wap/images/niubotoutiao.png") no-repeat center top;
+  background-size:contain;
+  box-sizing: border-box;
+  padding-left: 200rpx;
+}
+
+.news .news-swiper{
+  height: 66rpx;
+  line-height: 66rpx;
+  width: 300rpx;
+}
+
+.news .news-swiper .swiper-item{
+  font-size: 16px
+}
